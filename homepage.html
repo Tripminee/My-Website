@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+        <script defer src="main.js"></script>
+        <title>The Best Web-site</title>
+    </head>
+    
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Services</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i> 
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Boat</span>,</h1>
+                        <h2>A <span class="proffesions">Web Developer</span></h2>
+                        <p class="heroline">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. 
+                            Incidunt nesciunt, repudiandae numquam mollitia sequi 
+                        </p>
+                        <div class="buttonGroup">
+                            <button>Contact Me</button>
+                            <button>Call Me</button>
+                        </div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="/Image/Boat-02.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right-shake"></i></p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">About Me</h1>
+                        <h3 class="sub-heading">I'm Boat, <span class="proffesions">I'll be the best Programer</span></h3>
+                        <p class="aboutme-details">
+                            I am currently a beginner in coding, 
+                            but soon I will become a professional that everyone wants to work with for sure! 
+                            The job I am doing now is mostly related to marketing and data engineering / data science / data analysis.
+                            I haven't fully delved into programming yet. However, I have started developing websites and am practicing programming more each day.
+                            I believe it won't be long before I start doing it as a full-time job.
+                            One of my favorite quotes, which has been a significant mindset changer and brought me to this point,
+                            *There is nothing we can't do*
+                        </p>
+                        <div class="about-me-divison">
+                            <div class="about-me-table">
+                                <ul>
+                                    <li><span>Experience in Marketing :</span> 3+ years</li>
+                                    <li><span>Country :</span> Thailand</li>
+                                    <li><span>Age :</span> 29</li>
+                                    <li><span>Phone :</span> 081-890-2240</li>
+                                    <li><span>Language used :</span> HTML CSS JAVASCRIPT</li>
+                                </ul>
+                                <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                            </div>
+                            <div class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:99%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Python SOON</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:50%"></div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide services">
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>Web Design</h2>
+                        <p>This will be my best Website that i ever create :D</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p>I'll try my best to improve my skill</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h2>SEO</h2>
+                        <p>This is my next thing that i'll learn!</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h2>Graphic Designer</h2>
+                        <p>This is my weakest skill for me</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h2>Software Development</h2>
+                        <p>This is my GOAL!!</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h2>Database Development</h2>
+                        <p>This is my field of work</p>
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=1" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=2" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=3" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=4" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=5" alt=""></div>
+                    <div class="project"><img src="https://picsum.photos/200/300?random=6" alt=""></div>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>081-890-2240</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Pathom-Rangsit</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>okkookay@gmail.com</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Website</h3>
+                        <p>www.facebook.com</p>
+                    </div>
+                    <form action="/send-message" method="post">
+                        <h2>Send Me Message</h2>
+                        <div class="SocialLinks">
+                            <i class="fa-brands fa-codepen"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <textarea id="message" name="message" rows="10" placeholder="Type youe message here...." required></textarea>
+                        <button type="submit" class="primary">Send</button>
+                    </form>
+                    <footer>
+                        <li>Jak Lert</li>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
